@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head >
+  <head>
     <title>Day 1 Lab a1b</title>
     <!-- this is an internal style  -->
     <style>
-        h1{
-            Color: purple;
-            text-align: center;
-            text-decoration: underline;
-        }
+      h1{
+        color: purple;
+        text-align: center;
+        text-decoration: underline;
+      }
       p{
-        text-align: left;
         border-color: crimson;
         border-width: 5px;
         border-style: dashed;
@@ -27,12 +26,15 @@
     </header>
     <main>
       <p>Let's have some fun with questions!</p>
+      <p style="padding: 10px; color: blue; border: none;">Hi there. What is your name?</p>
+      <p style="padding: 10px; color: peru; border: none;">What is your favorite movie?</p>
+      <p style="padding: 10px; color: saddlebrown; border: none;">Where do you live?</p>
+      <p style="padding: 10px; color: slateblue; border: none;">Is that where you watched your favorite movie?</p>
     </main>
     <footer></footer>
     <script>
       var userName = prompt('Hi there. What is your name?');
 
-      // this is call concationation
       console.log('The user\'s name: ' +  userName);
 
       alert('It\'s really nice to meet you, ' + userName);
@@ -54,7 +56,7 @@
     
       do {
         isWhereWatchedMovie = prompt ('Is that where you first watched your favorite movie?');
-        //converting to upper case so I don't have to create a million 
+        //converting to upper case so I don't have to create a million variations in the while statement
         isWhereWatchedMovie = isWhereWatchedMovie.toUpperCase();
       
       
